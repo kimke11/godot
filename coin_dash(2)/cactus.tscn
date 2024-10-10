@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://bt827feecfbp3"]
+
+[ext_resource type="Texture2D" uid="uid://dvexxn1nry53h" path="res://assets/cactus.png" id="1_hk4l7"]
+
+[node name="Cactus" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_hk4l7")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
